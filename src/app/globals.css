@@ -2,7 +2,7 @@
   --bg: #fff;
   --textColor: #000;
   --softBg: #f0f0f0;
-  --softText: #626262
+  --softText: #626262;
 }
 
 * {
@@ -34,12 +34,12 @@ a {
   --softTextColor: #a6a6a6;
 }
 
-/* .light {
+.light {
   --bg: white;
   --textColor: black;
   --softBg: #f0f0f0;
-  --softTextColor: #626262;
-} */
+  --softTextColor: #868686;
+}
 
 .container {
   min-height: 100vh;

@@ -1,8 +1,8 @@
-import { Navbar } from '@/components/Navbar'
+import { Navbar } from '@/components/navbar'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import { Footer } from '@/components/Footer'
+import { Footer } from '@/components/footer'
 import { ThemeContextProvider } from '@/context/ThemeContext'
 import { ThemeProvider } from '@/providers/ThemeProvider'
 

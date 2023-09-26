@@ -1,0 +1,12 @@
+.container {
+  flex: 5;
+}
+
+.post {
+  display: flex;
+  gap: 20px;
+}
+
+.imageContainer {
+  position: relative;
+}
