@@ -16,13 +16,23 @@ export function Navbar() {
       <div className={styles.logo}>
         <Image src="/devnauta_logo.png" alt="logo" width={100} height={100} />
       </div>
-      <div className={styles.links}>
-        <ThemeToggle />
-        <Link href="/">Home</Link>
-        <Link href="/about">About</Link>
-        <Link href="/contact">Contact</Link>
-        <AuthLinks />
-      </div>
+      <ul className={styles.links}>
+        <li>
+          <ThemeToggle />
+        </li>
+        <li className={styles.link}>
+          <Link href="/">Home</Link>
+        </li>
+        <li className={styles.link}>
+          <Link href="/about">About</Link>
+        </li>
+        <li className={styles.link}>
+          <Link href="/contact">Contact</Link>
+        </li>
+        <li className={styles.authlinks}>
+          <AuthLinks />
+        </li>
+      </ul>
     </div>
   )
 }
