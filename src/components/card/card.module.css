@@ -52,7 +52,7 @@
   transition: background 0.3s linear;
 }
 
-.container:hover .title{
+.container:hover .title {
   background-size: 100% 2px;
 }
 
